@@ -9,15 +9,15 @@
 /coverage
 
 # production
-/files/mari-bairamova/documentation
-/files/mari-bairamova/downloads
-/files/mari-bairamova/fonts
-/files/mari-bairamova/images
-/files/mari-bairamova/scripts/bodymovin
-/files/mari-bairamova/scripts/sticky-kit
-/files/mari-bairamova/styles/vendors
-/files/mari-bairamova/styles/main.css
-/files/mari-bairamova/styles/main.css.map
+/files/mari-bairamova/src/documentation
+/files/mari-bairamova/src/downloads
+/files/mari-bairamova/src/fonts
+/files/mari-bairamova/src/images
+/files/mari-bairamova/src/scripts/bodymovin
+/files/mari-bairamova/src/scripts/sticky-kit
+/files/mari-bairamova/src/styles/vendors
+/files/mari-bairamova/src/styles/main.css
+/files/mari-bairamova/src/styles/main.css.map
 
 # misc
 .DS_Store
