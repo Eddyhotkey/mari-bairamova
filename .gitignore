@@ -9,8 +9,8 @@
 /coverage
 
 # production
-/files/mari-bairamova/src/documentation
-/files/mari-bairamova/src/downloads
+/files/mari-bairamova/documentation
+/files/mari-bairamova/downloads
 /files/mari-bairamova/src/fonts
 /files/mari-bairamova/src/images
 /files/mari-bairamova/src/scripts/bodymovin
@@ -18,6 +18,12 @@
 /files/mari-bairamova/src/styles/vendors
 /files/mari-bairamova/src/styles/main.css
 /files/mari-bairamova/src/styles/main.css.map
+
+/composer.json
+/composer.lock
+/.gitignore
+
+
 
 # misc
 .DS_Store

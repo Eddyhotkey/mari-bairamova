@@ -1,14 +1,19 @@
 {
     "type": "project",
     "require": {
+        "codefog/contao-mobile_menu": "^2.7",
+        "contao/calendar-bundle": "4.13.*",
+        "contao/comments-bundle": "4.13.*",
         "contao/conflicts": "*@dev",
-        "contao/manager-bundle": "5.0.*",
-        "contao/calendar-bundle": "5.0.*",
-        "contao/comments-bundle": "5.0.*",
-        "contao/faq-bundle": "5.0.*",
-        "contao/listing-bundle": "5.0.*",
-        "contao/news-bundle": "5.0.*",
-        "contao/newsletter-bundle": "5.0.*"
+        "contao/faq-bundle": "4.13.*",
+        "contao/listing-bundle": "4.13.*",
+        "contao/manager-bundle": "4.13.*",
+        "contao/news-bundle": "4.13.*",
+        "contao/newsletter-bundle": "4.13.*",
+        "jrgregory/m17-sticky-backend-footer": "^2.0",
+        "madeyourday/contao-rocksolid-custom-elements": "^2.4",
+        "terminal42/contao-ajaxform": "^1.1",
+        "terminal42/contao-node": "^1.5"
     },
     "extra": {
         "public-dir": "web",

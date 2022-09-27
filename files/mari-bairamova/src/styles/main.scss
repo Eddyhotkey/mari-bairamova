@@ -3,10 +3,11 @@
 ******************************************************/
 
 $grid-columns: 24;
+$font-size: 16px;
 
 /*** vendors ***/
 @import "vendors/bootstrap/scss/bootstrap";
-@import "vendors/mburger/mburger.css";
+@import "../vendors/mburger/mburger.css";
 
 /*** base ***/
 @import "base/font-face";
@@ -24,3 +25,4 @@ $grid-columns: 24;
 /*** layouts ***/
 /*** pages ***/
 /*** components ***/
+@import "components/burger_button";

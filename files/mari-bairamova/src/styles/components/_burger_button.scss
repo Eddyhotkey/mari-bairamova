@@ -1,0 +1,66 @@
+.burger {
+  //position: absolute;
+  width: rem-calc( 45px );
+  height: rem-calc( 30px );
+  background: none;
+  border: none;
+  outline: none;
+  z-index: 11;
+  span {
+	position: relative;
+	height: $burger-line;
+	width: 100%;
+	background: $burger-color__mobile;
+	display: inline-block;
+	border-radius: 4px;
+	transition: all .3s ease;
+	&:before {
+	  content: "";
+	  height: $burger-line;
+	  width: 100%;
+	  background: $burger-color__mobile;
+	  position: absolute;
+	  top: -10px;
+	  right: 0;
+	  border-radius: 4px;
+	  transition: all .3s ease-in-out;
+	}
+	&:after {
+	  content: "";
+	  height: $burger-line;
+	  width: 100%;
+	  background: $burger-color__mobile;
+	  position: absolute;
+	  bottom: -10px;
+	  right: 0;
+	  border-radius: 4px;
+	  transition: all .3s ease-in-out;
+	}
+	@include media-breakpoint-up( lg ) {
+	  background-color: $burger-color;
+	  &::after, &::before {
+		background-color: $burger-color;
+	  }
+	}
+  }
+  &.open {
+	span {
+	  background: #213B4D;
+	  &:before {
+		opacity: 1;
+		transform: rotate(40deg);
+		width: 50%;
+		top: -6px;
+		background: #213B4D;
+	  }
+	  &:after {
+		opacity: 1;
+		transform: rotate(-40deg);
+		width: 50%;
+		bottom: -6px;
+		background: #213B4D;
+	  }
+	}
+  }
+}
+
